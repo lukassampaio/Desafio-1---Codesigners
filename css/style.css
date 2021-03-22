@@ -1,0 +1,169 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+main h1 {
+  color: #ff171b;
+  margin-bottom: 25px;
+}
+
+main nav ul {
+  display: flex;
+  margin-bottom: 40px;
+}
+
+main nav ul li a i {
+  margin: 0 15px;
+  color: #030026;
+  border: 1px solid #030026;
+  border-radius: 100%;
+  padding: 5px;
+}
+
+main nav .fa {
+  font-size: 1rem;
+}
+
+main nav .fa-facebook {
+  width: 28px;
+  height: 30px;
+}
+
+main .pup {
+  margin-bottom: 20px;
+}
+
+main form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+main form .inputs input {
+  width: 400px;
+  padding: 15px 10px;
+  margin: 10px 0;
+  border: 1px solid #acc9e6;
+  border-radius: 8px;
+  background: #f2f6fa;
+}
+
+main form .inputs textarea:focus,
+input:focus {
+  outline: 0;
+}
+
+main form .inputs input::placeholder {
+  color: #c3d4e5;
+}
+
+main .check {
+  margin-bottom: 25px;
+  align-self: flex-start;
+}
+
+main .check input {
+  display: none;
+}
+
+main .check input + label:before {
+  content: "";
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+  border-radius: 3px;
+  background: red;
+  vertical-align: middle;
+  margin-right: 10px;
+  margin-bottom: 3px;
+  cursor: pointer;
+}
+
+main .check input:checked + label:before {
+  background-image: url("data:image/svg+xml,%3Csvg width='16' height='13' xmlns='http://www.w3.org/2000/svg'%3E%3Ctitle/%3E%3Cdesc/%3E%3Cg%3E%3Ctitle%3Ebackground%3C/title%3E%3Crect fill='none' id='canvas_background' height='15' width='18' y='-1' x='-1'/%3E%3C/g%3E%3Cg%3E%3Ctitle%3ELayer 1%3C/title%3E%3Cpath fill='%23ffffff' id='Shape' d='m5.6,10.6l-4.2,-4.2l-1.4,1.4l5.6,5.6l12,-12l-1.4,-1.4l-10.6,10.6z'/%3E%3C/g%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+main .check .pred {
+  color: red;
+}
+
+main .buttons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  min-width: 400px;
+}
+
+main .but1 {
+  padding: 13px 60px;
+  background: #ff171b;
+  border-radius: 8px;
+  /* margin-right: 20px; */
+  font-size: 1.125rem;
+  font-weight: 500;
+  color: #fff;
+}
+
+main .but1:hover {
+  color: #ff171b;
+  background: #fff;
+  transition: 0.2s ease-in-out;
+}
+
+main .but2 {
+  padding: 13px 60px;
+  border: 1px solid #ff171b;
+  border-radius: 8px;
+  font-size: 1.125rem;
+  font-weight: 500;
+  color: #ff171b;
+}
+
+main .but2:hover {
+  color: #fff;
+  background: #ff171b;
+  transition: 0.2s ease-in-out;
+}
+
+section .imgs img {
+  display: block;
+  height: 100vh;
+}
+
+@media (max-width: 830px) {
+  section .imgs img {
+    display: none;
+  }
+}
+
+/* FF171B, 100% */

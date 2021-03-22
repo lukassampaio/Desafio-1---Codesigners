@@ -1,0 +1,26 @@
+A ideia do desafio é colocar em prática nossos estudos e skills, trocar conhecimentos e entender nossas dificuldades, para que assim possamos evoluir e crescer juntos.
+
+1 - Objetivo
+
+Desenvolver o front do layout disponível no figma.
+
+2 - Requisitos
+
+- Não utilizar frameworks
+- Não é necessário deixar o formulário funcional, apenas trabalhar o layout.
+- Fiquem à vontade para adicionar efeitos e animações.
+
+3 - Entrega
+
+- Gerar link online para visualização do projeto executado (Você pode subir seu projeto em serviços gratuitos como Codepen, JSFiddle, Netlify, Github Pages ou Vercel)
+- Entregar até dia 22 às 23:59
+
+Arquivos
+
+assets do desafio 
+httpsdrive.google.comfiled1UDOZfYEsnsPLa7lQSuOHNIjL2N3XJnR0viewusp=sharing
+
+link do arquivo figma httpsdrive.google.comfiled1IpGwVeZ1xZ8ULKcMFo4PLEbkaPSoWWnqviewusp=sharing
+
+visualização do layout no figma
+https://www.figma.com/filedhwuIM5wxMYR1gRUmmmt8Ldesafio-codesigners-01
