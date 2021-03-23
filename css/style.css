@@ -27,6 +27,8 @@ main {
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin: 0 auto;
+  padding-left: 40px;
 }
 
 main h1 {
@@ -44,17 +46,51 @@ main nav ul li a i {
   color: #030026;
   border: 1px solid #030026;
   border-radius: 100%;
-  padding: 5px;
+  padding: 7px;
+  text-align: center;
 }
 
 main nav .fa {
-  font-size: 1rem;
+  font-size: 1.125rem;
 }
 
 main nav .fa-facebook {
-  width: 28px;
-  height: 30px;
+  width: 32px;
+  height: 34px;
 }
+
+/* Animações nav */
+
+main nav ul li .go:hover {
+  background-image: url("../img/go.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  transition: all 0s ease 0s;
+}
+
+main nav ul li .go:hover .fa-google {
+  opacity: 0;
+}
+
+.fa-facebook:hover {
+  color: #fff;
+  background: #4867aa;
+  transition: all 0.2s linear 0s;
+}
+
+.fa-twitter:hover {
+  color: #fff;
+  background: #1da1f2;
+  transition: all 0.2s ease-in-out 0s;
+}
+
+.fa-linkedin:hover {
+  color: #fff;
+  background: #0a66c2;
+  transition: all 0.2s ease-in-out 0s;
+}
+
+/* / Animações nav */
 
 main .pup {
   margin-bottom: 20px;
@@ -155,15 +191,18 @@ main .but2:hover {
   transition: 0.2s ease-in-out;
 }
 
+section {
+  margin: 0 auto;
+}
+
 section .imgs img {
   display: block;
+  max-width: 100%;
   height: 100vh;
 }
 
-@media (max-width: 830px) {
+@media (max-width: 800px) {
   section .imgs img {
     display: none;
   }
 }
-
-/* FF171B, 100% */
