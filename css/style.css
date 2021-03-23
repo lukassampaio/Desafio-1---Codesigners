@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap");
 
 * {
   padding: 0;
@@ -41,22 +41,22 @@ main nav ul {
   margin-bottom: 40px;
 }
 
-main nav ul li a i {
-  margin: 0 15px;
+main nav ul li a .fa {
+  margin: 0 10px;
   color: #030026;
   border: 1px solid #030026;
   border-radius: 100%;
-  padding: 7px;
+  padding: 8px;
   text-align: center;
-}
-
-main nav .fa {
+  display: inline-block;
   font-size: 1.125rem;
+  line-height: 1rem;
 }
 
-main nav .fa-facebook {
-  width: 32px;
+main nav ul li a .fa-facebook {
+  width: 34px;
   height: 34px;
+  padding: 9px;
 }
 
 /* Animações nav */
@@ -163,8 +163,8 @@ main .buttons {
 main .but1 {
   padding: 13px 60px;
   background: #ff171b;
+  border: 1px solid #ff171b;
   border-radius: 8px;
-  /* margin-right: 20px; */
   font-size: 1.125rem;
   font-weight: 500;
   color: #fff;
@@ -173,6 +173,7 @@ main .but1 {
 main .but1:hover {
   color: #ff171b;
   background: #fff;
+  border: 1px solid #ff171b;
   transition: 0.2s ease-in-out;
 }
 
@@ -188,6 +189,7 @@ main .but2 {
 main .but2:hover {
   color: #fff;
   background: #ff171b;
+  border: 1px solid #ff171b;
   transition: 0.2s ease-in-out;
 }
 
@@ -204,5 +206,11 @@ section .imgs img {
 @media (max-width: 800px) {
   section .imgs img {
     display: none;
+  }
+}
+
+@media (max-width: 800px) {
+  main {
+    margin: 30px auto;
   }
 }
